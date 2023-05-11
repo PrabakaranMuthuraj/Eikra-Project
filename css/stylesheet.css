@@ -1,0 +1,1319 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-bold-webfont.woff') format('woff'),
+        url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff'),
+        url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-thin-webfont.woff') format('woff'),
+        url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'robotoregular';
+}
+
+:root {
+    --lightwhite: #ced6d9;
+    --facility: #002147c9;
+    --white: white;
+    --lightorange: #fdc800;
+    --lightblue: #002147;
+    --navcolor: #212177;
+    --skilled: #07203d66;
+    --featured: #f5f5f5;
+    --latestbutton: #002147;
+    --skilledh6: #9b9593;
+    --skilledfont: #878787;
+    --what: #8f9192;
+    --join: #002147;
+    --black: #000000;
+    --footer: #304a6a;
+    --finalfoot: #001a39;
+    --finalcol: #7d9c9d;
+    --whatbk: #f8f8f8;
+    --footerlast:#678495;
+}
+
+/* <!-- Top-Head start--> */
+.top-container {
+    background-color: var(--lightblue);
+    margin: 0px -15px;
+
+}
+
+.cls-top-head {
+    padding: 6px 0px;
+}
+
+.cls-top-head a {
+    text-decoration: none;
+    color: var(--lightwhite);
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.cls-line {
+    border-right: 1px solid var(--lightwhite);
+    padding-right: 10px;
+}
+
+.cls-top-head i {
+    color: var(--lightorange);
+}
+
+.cls-top-body {
+    margin-left: 63px;
+}
+
+.custom-carousel {
+    margin: 0px -15px;
+}
+
+.cls-top-body a {
+    border: 1px solid var(--lightorange);
+    background-color: var(--lightorange);
+    color: var(--blue);
+    padding: 6px 0px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+/* <!-- Top-Head End--> */
+/* <!-- navbar start--> */
+.custom-container .custom-navbar {
+    margin: 0px -15px;
+    border-radius: 0px;
+    border: none;
+    background-color: var(--white);
+}
+
+.custom-navbar .navbar-brand {
+    padding: 20px;
+    height: auto;
+}
+
+.navbar-header img {
+    padding: 21px 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: var(--navcolor);
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: none;
+    color: var(--lightblue);
+}
+
+.navbar-inverse .navbar-nav>li>a.active {
+    color: var(--black);
+}
+
+.custom-navbar .navbar-collapse {
+    margin: 15px 0px;
+}
+
+.custom-navbar .navbar-toggle {
+    margin-top: 25px;
+    background-color: var(--lightblue);
+    border: none;
+}
+
+/* <!-- nav bar end--> */
+/* <!-- banner start--> */
+.cls-banner {
+    margin: 0px -15px;
+}
+
+.carousel-caption {
+    top: 25px;
+    width: 500px;
+    bottom: 151px;
+    padding: 0px 84px;
+}
+
+.carousel-inner>.item>img {
+    margin: 0px auto;
+    min-height: 665px;
+
+}
+
+.carousel-caption h3 {
+    font-weight: bold;
+    font-size: 34px;
+    position: absolute;
+    text-transform: capitalize;
+    margin-left: -83%;
+    width: 80%;
+    text-align: justify;
+    line-height: 46px;
+    margin-top: 108px;
+}
+
+.carousel-caption p {
+    position: absolute;
+    top: 44%;
+    margin-left: -83%;
+    width: 92%;
+    text-align: justify;
+}
+
+.carousel-caption button {
+    color: var(--black);
+    background-color: var(--lightorange);
+    padding: 9px 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: absolute;
+    top: 65%;
+    left: -66%;
+    border: 1px solid var(--lightorange);
+}
+
+.cls-facility {
+    background-color: var(--facility);
+    position: absolute;
+    bottom: 0px;
+    margin: 18px 65px 0px -3%;
+    padding: 23px 15px 13px 0px;
+}
+.cls-border {
+    border-right: 1px solid var(--featured);
+    padding: 4px 0px 5px 0px;
+}
+
+.cls-facility h4 {
+    padding: 0px 1px 3px 20px;
+    color: var(--featured);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.cls-facility p {
+    color: var(--white);
+    margin-left: 20px;
+}
+
+.cls-facility i {
+    margin-left: 85px;
+    font-size: 28px;
+    color: var(--lightorange);
+}
+
+/* <!-- banner End--> */
+/* <!-- Header End--> */
+/* <!-- body start--> */
+/* <!-- welcome start--> */
+.cls-campus {
+    padding: 30px;
+}
+
+.cls-student {
+    background-image: url(../images/student4.jpg);
+    background-repeat: no-repeat;
+    background-size: 112%;
+    min-height: 416px;
+    margin-right: -92px;
+    margin: 0px -15px;
+}
+
+.cls-student-font {
+
+    width: 60%;
+    padding: 50px 0px 25px 6px;
+}
+
+.cls-student-font h2 {
+    padding: 10px;
+    text-transform: capitalize;
+    color: var(--lightblue);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.cls-student-font h5 {
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.cls-student-font button {
+
+    line-height: 40px;
+    margin-top: 15px;
+    background-color: var(--lightorange);
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 1px solid var(--lightorange);
+}
+
+
+/* <!-- welcome end--> */
+/*<!--feature start-->*/
+.cls-feature {
+    background-color: var(--featured);
+    padding: 30px;
+    padding-bottom: 70px;
+    margin: 0px -15px;
+}
+
+.cls-feature-font {
+    padding: 50px;
+    font-size: 30px;
+    color: var(--navcolor);
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: -50px;
+    margin-right: -53px;
+}
+
+.cls-feature-font button {
+    float: right;
+    padding: 2px 10px;
+    margin: 0px 3px;
+    background-color: var(--lightorange);
+    border-color: var(--lightorange);
+    color: var(--white);
+    font-size: 20px;
+    border: 1px solid var(--lightorange);
+}
+
+.cls-master {
+    border: 1px solid #ececec;
+    width: 100%;
+    background-color: white;
+}
+
+.cls-masterimg {
+    text-align: left;
+    border-bottom: 1px solid var(--lightwhite);
+}
+
+.cls-masterimg img {
+    position: relative;
+}
+
+.cls-masterimg button {
+    position: absolute;
+    top: 10px;
+    right: 23px;
+    background-color: var(--lightorange);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 3px 5px;
+    border: 1px solid var(--lightorange);
+}
+
+.cls-masterimg button span {
+    text-decoration: line-through;
+}
+
+.cls-masterimg h4 {
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--lightblue);
+    padding: 7px 4px 0px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.cls-masterimg p {
+    padding: 0px 13px 0px 20px;
+}
+
+.cls-masterbottom {
+    padding: 8px 0px 8px 9px;
+}
+
+.cls-masterbottmimg img {
+    border-radius: 30px;
+}
+
+.cls-masterbottmimg i {
+    color: var(--lightorange);
+    margin-left: 2px;
+}
+
+.cls-masterbottmimg span i {
+    color: var(--lightwhite);
+}
+
+.cls-color {
+    color: var(--black);
+}
+
+/*<!--feature end-->*/
+/*<!--watch start-->*/
+.cls-watch {
+    background-image: url("../images/bg6.jpg");
+    text-align: center;
+    margin: 0px -15px;
+    min-height: 621px;
+}
+
+.cls-watchfont span {
+    border-radius: 100%;
+    border: 3px solid var(--white);
+    padding: 9px;
+    width: 70px;
+    display: inline-block;
+}
+
+.cls-watchfont span i {
+    font-size: 30px;
+    color: var(--lightorange);
+}
+
+.cls-watchfont {
+    padding: 152px 34%;
+}
+
+.cls-watchfont h2 {
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 46px;
+}
+
+.cls-watchfont p {
+    color: var(--lightwhite);
+    padding-bottom: 20px;
+}
+
+.cls-watchfont i {
+    font-size: 70px;
+    margin: 8px 36%;
+}
+
+/*<!--watch end-->*/
+/*<!--skilled start-->*/
+.cls-skill {
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.cls-skilledfont {
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.cls-skilledfont button {
+    float: right;
+    padding: 2px 10px;
+    margin: 0px 3px;
+    background-color: var(--lightorange);
+    color: var(--white);
+    font-size: 20px;
+    border: 1px solid var(--lightorange);
+}
+
+.cls-skilled {
+    width: 100%;
+    min-height: 380px;
+}
+
+.cls-skilledimg img{
+    /* text-align: left; */
+    padding: 0px 0px;
+}
+
+.cls-skilledimg h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.cls-skilledimg h6 {
+    text-transform: capitalize;
+    color: var(--skilledh6);
+}
+
+.cls-skilledimg span {
+    border-bottom: 4px solid var(--lightorange);
+    width: 40px;
+    position: absolute;
+}
+
+/*<!--skilled end-->*/
+/*<!--latest post start-->*/
+.cls-latestpost {
+    background-color: var(--featured);
+    padding: 40px;
+}
+
+.cls-summer p {
+    color: var(--skilledfont);
+}
+
+.cls-summer h3 {
+    text-transform: capitalize;
+    color: var(--lightblue);
+    font-weight: bold;
+    margin-bottom: 9%;
+}
+
+.cls-summer h4 {
+    text-transform: capitalize;
+    color: var(--navcolor);
+    font-weight: bold;
+}
+
+.cls-summer h6 {
+    color: var(--lightorange);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cls-summercourse {
+    background-color: var(--white);
+    padding: 10px 10px;
+    position: relative;
+}
+
+.cls-summerimg {
+    border-bottom: 1px solid var(--lightwhite);
+    padding-bottom: 15px;
+}
+
+.cls-summerimges {
+    padding-bottom: 15px;
+}
+.cls-summerimgedit{
+    padding: 19px 0px 0px 0px;
+   
+}
+.cls-summerimgedit img{
+    width: 20%;
+}
+
+.cls-summerimgedi img {
+    width: 20%;
+
+}
+
+.cls-summerfont {
+    position: absolute;
+    top: 2px;
+    left: 32%;
+}
+
+.cls-summerview {
+    margin: 31px 38%;
+}
+
+.cls-summerbutton {
+    padding: 5px 25px;
+    color: var(--white);
+    background-color: var(--latestbutton);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.cls-upcomingfont {
+    position: absolute;
+    top: 2px;
+    left: 32%;
+}
+
+.cls-upcomingfont h4 {
+    text-transform: capitalize;
+    color: var(--navcolor);
+    font-weight: bold;
+}
+
+.cls-upcommingcourse {
+    background-color: var(--white);
+    position: relative;
+    padding: 20px 10px;
+}
+
+.cls-borderright {
+    float: left;
+    border-right: 2px solid var(--lightwhite);
+    width: 18%;
+    position: absolute;
+    margin-left: 168px;
+    color: var(--navcolor);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.cls-city {
+    margin-left: 53%;
+    color: var(--navcolor);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.one {
+    margin-top: 20px;
+}
+
+.two {
+    background-color: var(--white);
+}
+
+.cls-course {
+    background-color: var(--white);
+    position: relative;
+    padding: 0px 10px;
+}
+
+/*<!--latest post end-->*/
+/*<!--num start-->*/
+
+.cls-num {
+
+    background-image: url("../images/counter.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 323px;
+}
+.cls-number{
+    padding: 90px 0px;
+}
+.cls-instructrus {
+    position: relative;
+}
+
+.cls-instructrus h1 {
+    color: var(--white);
+    font-size: 64px;
+    border-bottom: 3px solid var(--lightorange);
+    width: 88px;
+    padding-bottom: 20px;
+    
+}
+
+.cls-instructrus span {
+    color: var(--white);
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+/*<!--num end-->*/
+/*<!--what start-->*/
+.cls-studentssays{
+    padding: 35px 0px;
+}
+.whatstart h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 40px 0px;
+}
+
+.cls-david h3 {
+    text-transform: capitalize;
+    color: var(--lightblue);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cls-excellent {
+    background-color: var(--whatbk);
+}
+
+.cls-david p {
+    margin: 52px 97px 8px 0px;
+    padding: 17px;
+    position: relative;
+}
+
+.cls-david img {
+    border-radius: 59px;
+    margin-left: 74%;
+    position: absolute;
+    border: 8px solid #fff;
+}
+.cls-davids img{
+    border-radius: 59px;
+    margin-left: 72%;
+    position: absolute;
+    border: 8px solid #fff;
+}
+
+.cls-david span {
+    color: var(--whatbk);
+    margin-left: 40px;
+    position: absolute;
+    font-size: 60px;
+    margin-top: 15px
+}
+
+.cls-david h5 {
+    text-transform: capitalize;
+    color: var(--what);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.what button {
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-left: 47%;
+    border: 1px solid #fff;
+    margin-top: 30px;
+}
+.cls-movebutton button{
+    text-align: center;
+    margin: 0px -48% 28px 49%;
+    padding: 7px 25px 2px 7px;
+    border-radius: 25%;
+    border: white;
+    background-color: var(--latestbutton);
+}
+.cls-movebutton button:hover {
+    background-color: var(--featured);
+}
+
+/*<!--what end-->*/
+/*<!--grp start-->*/
+.cls-grp {
+    background-color: var(--lightorange);
+    padding: 50px;
+}
+
+.cls-group {
+    padding: 54px 0px;
+}
+
+.cls-group img {
+    width: 112%;
+    box-shadow: 0px 0px 9px var(--black);
+    margin-left: -12px;
+}
+
+.cls-grpimg {
+    background-color: var(--join);
+    color: var(--white);
+    top: 52px;
+    position: relative;
+    right: -13%;
+    padding: 3px 0px 73px 8px;
+    margin-right: 58px;
+}
+
+.cls-grpimg h4 {
+    font-size: 36px;
+    text-align: center;
+    padding: 70px 8px 27px 5px;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.cls-grpimg button {
+    text-align: center;
+    margin-left: 22%;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 10px 38px;
+    background-color: var(--lightorange);
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.cls-grouppic {
+    background-color: var(--navcolor);
+    color: var(--white);
+    font-size: 30px;
+    float: right;
+}
+
+
+/*<!--grp end-->*/
+/*<!--insert start-->*/
+
+.cls-insert {
+    padding: 55px;
+}
+
+/*<!--insert end-->*/
+/* <!-- body End--> */
+/*<!--footer start-->*/
+.cls-footercontainer {
+    background-color: var(--lightblue);
+    padding: 30px;
+}
+
+.cls-footer {
+    padding: 80px 0px;
+}
+
+.cls-foot1 img {
+    padding-right: 10px;
+}
+
+.cls-foot1 p {
+    color: var(--white);
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.cls-foot1 i {
+    color: var(--lightwhite);
+    padding: 8px 10px;
+    font-size: 13px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 1px;
+    border: 2px solid var(--footer);
+}
+
+.cls-foot2 {
+    margin-left: 20px;
+}
+
+.cls-foot2 h2 {
+    color: var(--featured);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cls-foot2 h3 {
+    font-size: 15px;
+}
+
+.cls-foot2 i {
+    padding: 0px 5px;
+    color: var(--lightorange);
+}
+.cls-foot2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.cls-foot3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cls-footer3 i {
+    padding: 0px 5px;
+    color: var(--lightorange);
+}
+.cls-footer3 a {
+    color:var(--featured);
+    text-decoration: none;
+}
+
+.cls-footer3 {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: -155px;
+    margin-right: 30%;
+}
+
+.cls-footer3 h3 {
+    font-size: 15px;
+}
+
+.cls-foot3 {
+    margin-left: -90px;
+}
+
+.cls-foot3 h2 {
+    color: var(--featured);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cls-foot3 h3 {
+    color: var(--featured);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.cls-foot3 i {
+    padding: 0px 2px;
+    color: var(--lightorange);
+}
+
+.cls-foot4 {
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+.cls-foot4 img {
+    width: 41%;
+    margin-right: -22px;
+    padding: 4px 12px;
+}
+
+.cls-foot4 h2 {
+    color: var(--featured);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 15px;
+    padding: 0px 3px 9px 2px;
+}
+
+.cls-footcontainer2 {
+    background-color: var(--finalfoot);
+}
+
+.cls-lastfoot {
+    text-align: center;
+}
+
+.cls-lastfoot h2 {
+    color: var(--lightwhite);
+    font-size: 14px;
+    display: inline;
+    float: left;
+    text-transform: capitalize;
+}
+
+.cls-lastfoot img {
+    float: right;
+    padding: 19px 3px;
+}
+.cls-lastfoot span{
+    color: var(--featured);
+}
+.cls-lastfoot a{
+    text-decoration: none;
+    color:var(--footerlast);
+}
+
+/*<--footer end-->*/
+.custom-inner{
+    width:100%
+}
+.custom-inner .item{
+    padding: 0px 0px 45px 0px;
+}
+.cls-heart{
+    margin-left: 17px;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+    .cls-line {
+        border-right: 0px;
+        padding-right: 10px;
+    }
+    .cls-top-head a {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .cls-top-body {
+        margin: 0%;
+    }
+
+    .carousel-caption {
+        margin: 2px 19px 28px -66px;
+        width: 100%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 13px;
+        top: -138px;
+        right: 42px;
+    }
+
+    .carousel-caption p {
+        top: 3px;
+        line-height: 15px;
+        right: 45px;
+        width: 79%;
+        font-size: 8px;
+    }
+
+    .carousel-caption button {
+         font-size: 7px;
+         padding: 0px 2px 0px 2px;
+         top: 50px;
+         left: 25px;
+    }
+
+    .carousel-inner>.item>img {
+        width: 100%;
+        min-height: unset
+    }
+
+    .cls-facility {
+        bottom: 0px;
+        margin: 18px 65px 0px 67px;
+        padding: 23px 15px 13px 0px;
+        display: none;
+    }
+
+    .cls-student {
+        background: unset;
+        margin-right: 0px;
+    }
+    .cls-student-font h5 {
+        line-height: 25px;
+        font-weight: bold;
+        width: 180%;
+    }
+    .cls-feature{
+        margin: 15px;
+    }
+
+    .cls-feature-font {
+        font-size: 16px;
+        margin-right: -47px;
+    }
+    .cls-feature-font p{
+        margin: 0px 200px 20px 0px;
+        text-align: justify;
+    }
+
+    .cls-feature-font button {
+        padding: 2px 3px;
+    } 
+
+    .cls-skilledfont {
+         font-size: 15px;
+         margin-right: -44px;
+         padding: 14px 38px 26px 42px;
+    }
+    .cls-master{
+        margin-bottom: 21px;
+    }
+    .cls-insert {
+        padding: 0px;
+        margin: 15px;
+    }
+
+    .cls-watchfont {
+        margin: 0px 50px;
+        padding: 30px;
+    }
+
+    .cls-summerfont {
+        position: unset;
+        width: auto;
+    }
+    .cls-masterbottom {
+        padding: 0px;
+    }
+    .cls-masterbottmimg{
+        padding: 7px 4px 8px 9px;
+    }
+
+    .cls-masterimg img {
+        position: relative;
+        width: 100%;
+    }
+
+    .cls-masterimg button {
+        top: 12px;
+        right: 22px;
+    }
+    .cls-borderright {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    .cls-upcommingcourse {
+        padding: 68px 0px 96px 0px;
+    }
+
+    .cls-grpimg {
+        display: none;
+    }
+
+    .cls-city {
+        margin-left: -2%;
+        margin-bottom: -79px;
+    }
+
+    .cls-city p {
+        padding-top: 78px;
+        margin-left: 140px;
+        padding-bottom: 0px;
+    }
+  
+
+    .cls-course {
+        position: relative;
+        padding: 80px 10px;
+    }
+
+    carousel-caption h3, p {
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .cls-borderright {
+        margin-top: 89px;
+        font-size: 11px;
+        margin-left: 42px;
+        width: 32%;
+    }
+
+    .cls-lastfoot img {
+        padding: 6px 9px 7px 47px;
+    }
+
+    .cls-foot3 {
+        margin-left: 24px;
+    }
+
+    .cls-footer3 {
+        margin-right: 5%;
+    }
+    .cls-foot1 img {
+        margin-left: 30px;
+    }
+    .cls-david img{
+        margin-left: 58%;
+    }
+    .cls-group img {
+        width: 136%;
+        box-shadow: 0px 0px 9px var(--black);
+        margin-left: -31px;
+    }
+    .cls-grp {
+        background-color: var(--lightorange);
+        padding: 50px;
+        margin: 15px;
+    }
+    .cls-student-font p {
+        /* margin: 4px 185px 3px 0px; */
+        text-align: justify;
+    }
+    .cls-student-font{
+        padding: 0px;
+    }
+    .cls-campus{
+        background: unset;
+         margin: 0px 15px -12px 15px;
+    }
+    .cls-student-font p {
+        margin: 4px -84px 3px 0px;
+    }
+    .cls-skilledimg {
+        margin-left: -5px;
+    }
+    .cls-skill{
+        padding: 15px;
+    }
+    .cls-summerimgedi img {
+        width: 20%;
+        margin-left: 12px;
+    }
+    .cls-summerfont h4{
+        line-height: 25px;
+    }
+    .cls-heart {
+        margin-left: 3px;
+    }
+    .cls-student-font h2{
+        width: 190%;
+        font-size: 38px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .cls-line {
+        padding-right: 10px;
+    }
+    .cls-top-head a {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .cls-top-body {
+        margin: 0%;
+    }
+    .carousel-caption {
+        margin: 2px 19px 28px -66px;
+        width: 100%;
+    }
+
+    .carousel-caption h3 {
+        text-align: left;
+        font-size: 15px;
+        top: -20px;
+    }
+
+    .carousel-caption p {
+        top: 20px;
+        line-height: 16px;
+    }
+
+    .carousel-caption button {
+        font-size: 10px;
+        padding: 3px 2px 2px 5px;
+        position: absolute;
+        top: 70px;
+        left: 90px;
+    }
+
+    .carousel-inner>.item>img {
+        width: 100%;
+    }
+
+    .cls-facility {
+        bottom: 0px;
+        margin: 18px 65px 0px 67px;
+        padding: 23px 15px 13px 0px;
+        display: none;
+    }
+
+    .cls-student {
+        background: unset;
+    }
+    .cls-student-font button{
+        padding: 0px 7px 0px 7px;
+    }
+
+    .cls-feature-font {
+        font-size: 16px;
+    }
+
+    .cls-feature-font button {
+        padding: 2px 6px;
+    }
+
+    .cls-skilledfont {
+        font-size: 15px;
+        margin-right: -30px;
+    }
+
+    .cls-master {
+        width: 92%;
+    }
+
+    .cls-watchfont {
+        margin: 0px 50px;
+        padding: 30px;
+    }
+    .cls-summerfont {
+        position: unset;
+        width: 100%;
+    }
+
+    .cls-masterimg img {
+        width: 100%;
+    }
+
+    .cls-masterimg button {
+        top: 12px;
+        right: 26px;
+    }
+
+    .cls-borderright {
+        margin-top: 64px;
+        font-size: 11px;
+        margin-left: 24px;
+        width: 32%;
+    }
+
+    .cls-upcommingcourse {
+        padding: 68px 0px 96px 0px;
+    }
+
+    .cls-grpimg {
+        display: none;
+    }
+
+    .cls-city {
+        margin-left: -2%;
+    }
+
+    .cls-city p {
+        padding-top: 29px;
+        margin-left: 247px;
+        font-size: 20px;
+    }
+
+    .cls-course {
+        position: relative;
+        padding: 80px 10px;
+    }
+
+    carousel-caption h3, p {
+        text-align: left;
+        font-size: 10px;
+    }
+    .cls-num{
+        display: none;
+    }
+
+    .cls-borderright {
+        margin-top: 43px;
+        font-size: 18px;
+        margin-left: 108px;
+    }
+
+    .cls-lastfoot img {
+        padding: 19px 27px;
+    }
+
+    .cls-foot3 {
+        margin-left: 24px;
+    }
+
+    .cls-footer3 {
+        margin-right: 10%;
+    }
+    .cls-instructrus h1 {
+        font-size: 40px;
+        width: 80px;
+        position: absolute;
+    }
+}

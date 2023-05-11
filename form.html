@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <style>
+      form {
+        width: 50%;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      input[type="text"], select {
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+        margin-bottom: 20px;
+        width: 100%;
+        background-color: burlywood;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="age">Age:</label>
+      <select id="age" name="age">
+        <option value="under18">Under 18</option>
+        <option value="18to25">18-25</option>
+        <option value="26to35">26-35</option>
+        <option value="36to45">36-45</option>
+        <option value="over45">Over 45</option>
+      </select>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
